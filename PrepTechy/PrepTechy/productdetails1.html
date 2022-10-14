@@ -2,69 +2,83 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title> GadgetNet | Ecommerece Website Design</title>
-    <link rel="stylesheet" href="PrepTechy/PrepTechy/style.css">
+    <title> All Products-GadgetNet | Ecommerece Website Design</title>
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css"
 </head>
 <body>
-    <div class="header">
     <div class="container">
         <div class="navbar">
         <div class="logo">
-        <a href="../../index.html"><img src = "PrepTechy/PrepTechy/GadgetNet-1.png" width="400" height="105"></a>
+          <img src = "GadgetNet-1.png" width="400" height="105">
         </div>
         <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="PrepTechy/PrepTechy/products.html">Products</a></li>
-            <li><a href="PrepTechy/PrepTechy/about.html">About Us</a></li>
-            <li><a href="PrepTechy/PrepTechy/contact.html">Contact Us</a></li>
-            <li><a href="PrepTechy/PrepTechy/my account.html">My Account</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="my account.html">My Account</a></li>
             <li><a href=""></a></li>
             </ul>
         </nav>
-            <a href="PrepTechy/PrepTechy/cart.html"><img src="PrepTechy/PrepTechy/cartlogo1.png" width="30px" height="30px"></a>
+            <a href="cart.html"><img src="cartlogo1.png" width="30px" height="30px"></a>
     </div>
+</div>
+
+<!-------------------Single Product Details-------------->
+
+    <div class="small-container single-product">
         <div class="row">
             <div class="col-2">
-                <h1>Give Your Engineering<br>A New Style!</h1>
-                <p>Success isn't always about greatness. It's about
-                consistency. Consistent<br>hard work gains success. Greatness
-                will come.</p>
-                <a href="PrepTechy/PrepTechy/products.html" class="btn">Explore Now &#8594;</a>
+                <img src="roller1.jpg" width="100%" id="ProductImg">
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="roller1.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="roller2.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="roller3.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="roller4.jpg" width="100%" class="small-img">
+                    </div>
+                </div>
             </div>
             <div class="col-2">
-                <img src="PrepTechy/PrepTechy/testing.png">
+                <p>Product / Roller-Scale</p>
+                <h1>Special offer by seniors!!</h1>
+                <h4>Rs 50</h4>
+                <input type="number" value="1">
+                <a href="cart.html" class="btn">Add to Cart</a>
+                <h3>Product Details</h3>
+                <br>
+                <p>Roll-n-draw roller scale (30 cm) is used to draw vertical lines, parallel lines, charts, horizontal lines, 3-d drawings, 
+                    engineering drawings, angles, circles, graphs, musical lines and many other technical drawings..</p>
+                
             </div>
         </div>
     </div>
-    </div>
 
-    <!---------------- featured categories------------>
+<!--------------Title--------------->
 
-    <div class="categoires">
-        <div class="small-container">
-        <div class="row">
-        <div class="col-3">
-            <img src="PrepTechy/PrepTechy/drafter.png">
-            </div>
-            <div class="col-3">
-             <img src="PrepTechy/PrepTechy/book1.png">
-            </div>
-            <div class="col-3">
-             <img src="PrepTechy/PrepTechy/roller-scale.png">
-            </div>
-        </div>
-        </div>
-    </div>
-
-    <!-------------------Featured Products------------------>
     <div class="small-container">
-        <h2 class="title">Featured Products</h2>
+        <div class="row row-2">
+            <h2>Related Products</h2>
+            <p>View More</p>
+        </div>
+    </div>
+
+<!--------------Products--------------->
+
+    <div class="small-container">
+
         <div class="row">
             <div class="col-4">
-                <img src="PrepTechy/PrepTechy/product1.jpg">
+                <a href="productdetails1.html"><img src="product1.jpg"></a>
                 <h4>Roller-Scale</h4>
                 <div class="rating">
                     <i class="a-icon a-icon-star-small a-star-small-4-5 aok-align-bottom"></i>
@@ -76,7 +90,7 @@
                 <p>Price:50Rs</p>
             </div>
             <div class="col-4">
-                <img src="PrepTechy/PrepTechy/product2.jpg">
+                <a href="productdetails2.html"><img src="product2.jpg"></a>
                 <h4>Scientific-Calculator</h4>
                 <div class="rating">
                     <i class="fa fa-star" aria-hidden="true"></i>
@@ -88,7 +102,7 @@
                 <p>Price:600Rs</p>
             </div>
             <div class="col-4">
-                <img src="PrepTechy/PrepTechy/product3.jpg">
+                <a href="productdetails3.html"><img src="product3.jpg"></a>
                 <h4>Mini-Drafter</h4>
                 <div class="rating">
                     <i class="fa fa-star" aria-hidden="true"></i>
@@ -100,7 +114,7 @@
                 <p>Price:300Rs</p>
             </div>
             <div class="col-4">
-                <img src="PrepTechy/PrepTechy/product4.jpg">
+                <a href="productdetails4.html"><img src="product4.jpg"></a>
                 <h4>Engineering Kit</h4>
                 <div class="rating">
                     <i class="fa fa-star" aria-hidden="true"></i>
@@ -110,28 +124,10 @@
                     <i class="fa fa-star-o" aria-hidden="true"></i>
                 </div>
                 <p>Price:200Rs</p>
-            </div>
-         </div>   
+         </div>
     </div>
+</div>
 
-    <!-------------------Offer------------------>
-    <div class="offer">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-2">
-                    <img src="PrepTechy/PrepTechy/exclusive.png">
-                </div>
-                <div class="col-2">
-                    <p>Selling Solutions Not Promises</p>
-                    <h1>Mini-Drafter</h1>
-                    <small>Mini Drafter which can be used for multiple functions in drawing like drawing horizontal lines, 
-                        vertical lines, inclined lines, angles, parallel lines, perpendicular lines etc.</small>
-                        <br>
-                    <a href="PrepTechy/PrepTechy/products.html" class="btn">Buy Now &#8594;</a>
-                </div>
-            </div>
-        </div>
-    </div>
 
 
 
@@ -144,12 +140,12 @@
                 <h3>Download Our App</h3>
                 <p>Download App for Android and ios mobile phone.</p>
                 <div class="app-logo">
-                <img src="PrepTechy/PrepTechy/androidplaystore.png">
-                <img src="PrepTechy/PrepTechy/appleplaystore.png">
+                <img src="androidplaystore.png">
+                <img src="appleplaystore.png">
                 </div>
             </div>
             <div class="footer-col-2">
-                <img src="PrepTechy/PrepTechy/GadgetNet-1.png">
+                <img src="GadgetNet-1.png">
                 <p>Our Purpose Is To Sustainably Make the Pleasure and
                     Benefits of PreOwned Products Accessible to the students easily.</p>
             </div>
@@ -178,6 +174,30 @@
         </div>
     </div>
 
+
+<!-------js for product gallery--------->
+    <script>
+        var ProductImg = document.getElementById("ProductImg");
+        var SmallImg = document.getElementsByClassName("small-img")
+
+            SmallImg[0].onclick=function()
+            {
+                ProductImg.src = SmallImg[0].src;
+            }
+            SmallImg[1].onclick=function()
+            {
+                ProductImg.src = SmallImg[1].src;
+            }
+            SmallImg[2].onclick=function()
+            {
+                ProductImg.src = SmallImg[2].src;
+            }
+            SmallImg[3].onclick=function()
+            {
+                ProductImg.src = SmallImg[3].src;
+            }
+
+    </script>
 
 
 
