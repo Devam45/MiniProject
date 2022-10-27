@@ -6,7 +6,9 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-
+.logo1{
+    padding-top: 60px;
+}
 .navbar{
     display: flex;
     align-items: center;
@@ -70,7 +72,7 @@ p{
     background: #563434;
 }
 .header{
-    background: radial-gradient(#fff,#ffd6d6);
+    background-color: #fff;
 }
 .header .row{
     margin-top: 40px;
@@ -92,6 +94,15 @@ p{
     padding-left: 20px;
     padding-right: 20px;
     
+}
+
+.featuredProducts{
+    border:3px solid rgb(88, 8, 8);
+    
+}
+
+#heading{
+    color: rgb(112, 15, 15);
 }
 
 .col-4{
