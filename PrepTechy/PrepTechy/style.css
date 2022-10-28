@@ -61,7 +61,7 @@ p{
 }
 .btn{
     display: inline-block;
-    background: #ff523b;
+    background: #9B2928;
     color: #fff;
     padding: 8px 30px;
     margin: 30px 0;
@@ -122,12 +122,12 @@ p{
     margin: 0 auto 80px;
     position: relative;
     line-height: 60px;
-    color: red;
+    color: #9B2928;
 }
 
 .title::after{
     content: '';
-    background: red;
+    background: #9B2928;
     width: 80px;
     height: 5px;
     border-radius: 5px;
@@ -171,7 +171,7 @@ small{
 
 .page-btn span{
     display: inline-block;
-    border: 1px solid #ff523b;
+    border: 1px solid #9B2928;
     margin-left: 10px;
     width: 40px;
     height: 40px;
@@ -181,7 +181,7 @@ small{
 }
 
 .page-btn span:hover{
-    background:#ff523b;
+    background:#9B2928;
     color:#fff;
 }
 
@@ -193,7 +193,7 @@ small{
 }
 
 select{
-    border: 1px solid #ff523b;
+    border: 1px solid #9B2928;
     padding: 5px;
 }
 
@@ -203,10 +203,10 @@ select:focus{
 /*-------------account-page-------------*/
 .account-page{
     padding: 50px 0;
-    background: radial-gradient(#fff,#ffd6d6);
+    background: radial-gradient(#fff);
 }
 .form-container{
-    background: #fff;
+    background: #9B2928;
     width: 300px;
     height: 400px;
     position: relative;
@@ -219,7 +219,7 @@ select:focus{
 .form-container span{
     font-weight: bold;
     padding: 0 10px;
-    color: #555;
+    color: #fff;
     cursor: pointer;
     width: 100px;
     display: inlineblock;
@@ -262,7 +262,7 @@ form a{
 #Indicator{
     width: 100px;
     border: none;
-    background: #ff523b;
+    background: #fff;
     height: 3px;
     margin-top: 8px;
     transform: translateX(100px);
@@ -347,7 +347,7 @@ ul{
     padding-left: 10px;
     font-size: 20px;
     margin-right: 10px;
-    border: 1px solid #ff523b;
+    border: 1px solid #9B2928;
 }
 
 input:focus{
@@ -370,7 +370,7 @@ input:focus{
 .about{
     width: 100%;
     padding: 78px 0px;
-    background: radial-gradient(#fff,#ffd6d6);
+    background: radial-gradient(#fff);
 }
 .about img{
     height: auto;
@@ -410,7 +410,7 @@ input:focus{
     margin-bottom: 45px;
 }
 button{
-    background-color: #ff523b;
+    background-color: #9B2928;
     color: black;
     text-decoration: none;
     border: 2px solid transparent;
@@ -421,7 +421,7 @@ button{
 }
 button:hover{
     background: transparent;
-    border: 3px solid #ff523b;
+    border: 3px solid #9B2928;
     cursor: pointer;
 }
 
@@ -445,7 +445,7 @@ th{
     text-align: left;
     padding: 5px;
     color: white;
-    background: #ff523b;
+    background: #9B2928;
     font-weight: normal;
 }
 
@@ -458,7 +458,7 @@ td input{
     height: 50px;
     padding: 5px;
 
-    border: 1px solid #ff523b;
+    border: 1px solid #9B2928;
 }
 
 input:focus{
@@ -466,7 +466,7 @@ input:focus{
 }
 
 td a{
-    color: #ff523b;
+    color: #9B2928;
     font-size: 12px;
 }
 
@@ -482,7 +482,7 @@ td img{
 }
 
 .total-price table{
-    border-top: 3px solid #ff523b;
+    border-top: 3px solid #9B2928;
     width: 100%;
     max-width: 400px;
 }
@@ -509,20 +509,20 @@ th:last-child{
     display: flex;
 }
 .contact-left{
-    background: radial-gradient(#fff,#ffd6d6);
+    background: radial-gradient(#fff);
     flex-basis: 60%;
     padding: 40px 60px;
 }
 .contact-right{
     flex-basis: 40%;
     padding: 40px 60px;
-    background: radial-gradient(#fff,#ffd6d6);
-    color:#ff523b;
+    background: radial-gradient(#fff);
+    color:#9B2928;
 }
 #contact{
     font-family: "Mv Boli";
     margin-bottom: 10px;
-    color:#ff523b;
+    color:#9B2928;
 }
 .container p{
     margin-bottom: 40px;
@@ -556,11 +556,11 @@ textarea{
 label{
     margin-bottom: 6px;
     display: block;
-    color: brown;
+    color: #9B2928;
 }
 button{
-    background-color: #ff523b;
-    color: black;
+    background-color: #9B2928;
+    color: #fff;
     text-decoration: none;
     border: 2px solid transparent;
     font-weight: bold;
@@ -570,12 +570,12 @@ button{
 }
 button:hover{
     background: transparent;
-    border: 3px solid #ff523b;
+    border: 3px solid #9B2928;
     cursor: pointer;
 }
 
 .contact-left h3{
-  color:brown;
+  color:#9B2928;
   font-weight: 600;
   margin-bottom: 30px;
 }
